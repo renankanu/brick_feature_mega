@@ -1,5 +1,5 @@
 name: mega_feature
-description: A new brick created with the Mason CLI.
+description: A feature brick for architecture used in Megaleios.
 
 # The following defines the version and build number for your brick.
 # A version number is three numbers separated by dots, like 1.2.34
@@ -21,8 +21,8 @@ environment:
 #  * an optional prompt phrase used when asking for the variable
 #  * a list of values (enums only)
 vars:
-  name:
+  feature_name:
     type: string
-    description: Your name
-    default: Dash
-    prompt: What is your name?
+    description: Feature name
+    default: user
+    prompt: Qual o nome da Feature(e.g user)?
